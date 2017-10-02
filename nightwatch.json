@@ -7,13 +7,13 @@
   "globals_path" : "",
 
   "selenium" : {
-    "start_process" : false,
-    "server_path" : "",
+    "start_process" : true,
+    "server_path" : "./bin/selenium-server-standalone-3.6.0.jar",
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "",
-      "webdriver.gecko.driver" : "",
+      "webdriver.chrome.driver" : "./bin/chromedriver",
+      "webdriver.gecko.driver" : "./bin/geckdriver",
       "webdriver.edge.driver" : ""
     }
   },
@@ -37,12 +37,6 @@
     "chrome" : {
       "desiredCapabilities": {
         "browserName": "chrome"
-      }
-    },
-
-    "edge" : {
-      "desiredCapabilities": {
-        "browserName": "MicrosoftEdge"
       }
     }
   }

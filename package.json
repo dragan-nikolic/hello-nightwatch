@@ -1,0 +1,29 @@
+{
+  "name": "hello-nightwatch",
+  "version": "1.0.0",
+  "description": "hello nightwatch",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nightwatch": "^0.9.16"
+  },
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragan-nikolic/hello-nightwatch.git"
+  },
+  "keywords": [
+    "nightwatch"
+  ],
+  "author": "Dragan Nikolic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragan-nikolic/hello-nightwatch/issues"
+  },
+  "homepage": "https://github.com/dragan-nikolic/hello-nightwatch#readme"
+}
