@@ -5,9 +5,7 @@ module.exports = {
     browser
       .url('http://www.google.com')
       .waitForElementVisible('body', WAIT_TIME)
-      .setValue('input[type=text]', 'nightwatch')
-      .waitForElementVisible('button[name=btnG]', WAIT_TIME)
-      .click('button[name=btnG]')
+      .setValue('input[type=text]', ['nightwatch', browser.Keys.ENTER])
       .pause(1000)
       .assert.containsText('#main', 'Night Watch')
       .end();
